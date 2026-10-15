@@ -26,6 +26,7 @@ $events = [
     <p>Informasi agenda kegiatan kampus.</p>
 
     <h2>Daftar Event</h2>
+    <p>Temukan jadwal, lokasi, dan informasi kegiatan kampus di sini.</p>
 
     <?php foreach ($events as $event): ?>
         <article>
