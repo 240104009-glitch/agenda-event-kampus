@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusEvent - Agenda Kampus</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+        header {
+            background: #2563eb;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 32px;
+        }
+        header p {
+            margin: 0;
+        }
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .events {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+        .event-card {
+            background: white;
+            padding: 22px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        .event-card h3 {
+            color: #2563eb;
+            margin-top: 0;
+        }
+        .date {
+            font-weight: bold;
+            color: #475569;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            background: #1e293b;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CampusEvent</h1>
+        <p>Sistem Informasi Agenda dan Event Kampus</p>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Agenda Kegiatan Kampus</h2>
+            <p>Temukan informasi kegiatan dan acara kampus di sini.</p>
+        </section>
+        <section class="events">
+            <article class="event-card">
+                <h3>Seminar Teknologi Informasi</h3>
+                <p class="date">10 November 2026</p>
+                <p>Seminar tentang perkembangan teknologi informasi.</p>
+                <p><strong>Lokasi:</strong> Aula Kampus</p>
+            </article>
+            <article class="event-card">
+                <h3>Workshop Web Programming</h3>
+                <p class="date">15 November 2026</p>
+                <p>Pelatihan dasar pembuatan website.</p>
+                <p><strong>Lokasi:</strong> Laboratorium Komputer</p>
+            </article>
+            <article class="event-card">
+                <h3>Festival Kreativitas Mahasiswa</h3>
+                <p class="date">20 November 2026</p>
+                <p>Kegiatan untuk menampilkan kreativitas mahasiswa.</p>
+                <p><strong>Lokasi:</strong> Lapangan Kampus</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 CampusEvent | Sistem Informasi Agenda Kampus</p>
+    </footer>
+</body>
+</html>
